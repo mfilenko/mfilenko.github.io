@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/mfilenko
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://filenko.ms
+  * I am mfilenko (https://keybase.io/mfilenko) on keybase.
+  * I have a public key with fingerprint 571E 5CA7 A6DE E1D7 B085  F600 5E93 BD42 B7A4 2EBE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014de58752d117403b90de10205ac4bde31167da13f7cc20c642c3979052ece1a10a",
+      "fingerprint": "571e5ca7a6dee1d7b085f6005e93bd42b7a42ebe",
+      "host": "keybase.io",
+      "key_id": "5e93bd42b7a42ebe",
+      "kid": "01014de58752d117403b90de10205ac4bde31167da13f7cc20c642c3979052ece1a10a",
+      "uid": "8905dd98562b9617c92b8a61b784cd19",
+      "username": "mfilenko"
+    },
+    "service": {
+      "hostname": "filenko.ms",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1558002248,
+  "expire_in": 157680000,
+  "prev": "9f4aea9e90f9adfdb5b365099f5c8644c7903c46b9406f1d435283e58ad2456c",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkmtQVGUcxg+gRBgGE0GZeDmUY7jCe+7nbA3ptlFC0FQ0QiLrubwHTiy7sLsg
+JCxG4ASIhMQtMN0sjMGstIxqsrhMSAyMJrIURTqAxCUrGhCLsHMY/NbHPr3zPvN7
+nvf5/+d93c8L8fFIrvrS8Ok74ec8eiYEJOknfcI+VLBKuah+H5oGlw5olqDdYUpT
+JFSPAgxgpAQplqFwCcMYEhACBySIARxQvEgKEiQwjGYkHiNkRhRxINIkLhIcwwEK
+hyLEeAzwqA6VFUsKtGXYFItDjaUYDFIiz/C0BCEmMQJgKZkGgIIcIUgkLjA8iUMB
+qsZUq11zqOUE3g7DFauqqRfTUr3/4P/n3llLcayqShLHUjQucDTGiBwusDyNCQxL
+ihLGaaAd2ix8OlTpdFkxQ0uaFc3XoaqarYhQW6w2yTKxDISn21Vnhs3qsIpWs6qn
+OhwZes3myM3QuL1QMC0nmATFIqlLVA3Z0GZXrBZUj6mk6FC0SIyiWABwnGR1KMzJ
+UGzQpGgExdCqDoD2DMxWIzmZ5CHPQQ68IHO8JEsCJRA0BThOpkSWJklRXQEhkrTA
+kYCWMYkkKJwl1FXyEk5StIhqQ2VarKieUHvyKWqmXUmx8I4sG0TzfUs8iRWIhw8S
+ErRxxc51SSeahq+6PyyeQ25/vJWe2q9DfO/0v630POqPvDZPtb1ZPDtclXgFMe76
+/vGuu3d3VQwYq88WRdLHO0q3bxtxlqyerizwj073ntMf8Fyc9TP6mA7NZUbfWBUW
+0ZFH1D8dnxyXXfD7xR83F7ZvvFTdEu1N/7Y+yxWcdMNN3Humc8sZ8+mFSveasLfx
+hZ15SWvNDQn1Ef7rpsb6a53ROU53axY7KLmQ0uHMyuma4dHu2KmfL34cEdnXmYnM
+N16d/eaBuyoIMipcN3ElLt4ctblgFeU+dThsZmtgtRLFxlwKfXYoIvbmZfSOazWp
+TcEBnTcLUrknjtUOf7KhK2HPhXNfvNRwX8nAyHSiOyiiH8idBydKgr9mtrTWTjxV
+dX7tZOSvF458dwrN3x8Y3LHj74pffGdy9nuQ8a5r7x/tXeR8i/rGN+WziYsbxnIX
+htiU0m/fa53bM2ha7+RXdwa+Mfm50vfkplFQ233yA8JrTD7bdtRo/NO7zO+v/vLn
+fYuCmnbUGCyO3hZnsRi3Pd7cePhdl994dbn+kGFv3yttzeU5g0NKyA+hZYtrCv9p
+3DZ/8tU6r5DTVi646lhCfl5d89aYgLSeuok43fGRzyztk4N9zj86HmpALj8yUFPf
+OHZrhn/s5fnYE+0HfWZHDAwhd5uPNF4P/Kr3xeQyY0BLzcrdzMNT59NamnHd6NyD
+IcpHrrd8Yq4/kxtdGHNPdSkbeuv+8SHDrudc/wI=
+=NsB+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mfilenko
+
+==================================================================
+
