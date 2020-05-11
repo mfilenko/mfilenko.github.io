@@ -1,4 +1,5 @@
 body {
+    font-family: "IBM Plex Sans", Charter, "Liberation Serif", Times, "Times New Roman", Georgia, serif;
     margin: auto;
     max-width: 670px;
     line-height: 1.6;
@@ -8,5 +9,6 @@ body {
 }
 
 h1, h2 {
+    font-family: "Playfair Display", "IBM Plex Serif", Charter, "Liberation Serif", Times, "Times New Roman", Georgia, serif;
     line-height: 1.2;
 }
