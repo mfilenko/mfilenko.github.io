@@ -40,3 +40,10 @@ a:link {
 a:visited {
     color: var(--orange);
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--base0);
+        background-color: var(--base03);
+    }
+}
