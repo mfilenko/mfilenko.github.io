@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family: "IBM Plex Sans", Charter, "Liberation Serif", Times, "Times New Roman", Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: auto;
     max-width: 670px;
     line-height: 1.6;
