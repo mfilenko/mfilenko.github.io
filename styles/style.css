@@ -57,6 +57,19 @@ a:visited {
     color: var(--orange);
 }
 
+figure.epigraph {
+    align: right;
+    text-align: right;
+}
+
+blockquote p::before {
+    content: "\201C";
+}
+
+blockquote p::after {
+    content: "\201D";
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: var(--base0);
