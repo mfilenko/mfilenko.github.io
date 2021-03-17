@@ -25,6 +25,35 @@
             <p>I was going to start a link log when I realized what I actually want is my own version of r/todayilearned with <del>blackjack and hookers</del> some sort of breadcrumbs to preserve my path to new findings.</p>
         </header>
 
+        <h6><a id="2021-03-17">2021-03-17</a></h6>
+
+        <ul class="top">
+            <li><details><summary><code>ssh ssh-j.com</code></summary>
+<pre>                          ╭────────────────────────╮
+                          │        SSH-J.com       │
+                          │ Public SSH Jump & Port │
+                          │    Forwarding Server   │
+                          ╰────────────────────────╯
+                      By ValdikSS &lt;iam@valdikss.org.ru&gt;
+
+Looking for ways to expose SSH behind NAT? Search no further!
+
+Publish SSH server port of your laptop, which is behind NAT:
+ ssh any-username@ssh-j.com -N -R laptop-behind-nat:22:localhost:22
+   ╭─╯  unique  ╰─╮               │  device name ╭───╯ │destination│
+   │  namespace   │               │    and port  │     │address and│
+   │for your hosts│               ╰──────────────╯     │    port   │
+   ╰──────────────╯                                    ╰───────────╯
+
+Connect to the published SSH:
+ ssh -J any-username@ssh-j.com laptop-behind-nat
+       ↖
+         It's THAT easy!
+
+Published hosts are bound to the username. Other usernames can't access them.
+Pick a unique username (not root &#x1F601;) and get access to your devices anywhere!
+Limits: 6 exposed services (ports) per username.</pre></details></li></ul>
+
         <h6><a id="2021-03-12">2021-03-12</a></h6>
 
         <ul class="top">
