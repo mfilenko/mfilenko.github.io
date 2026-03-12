@@ -6,42 +6,52 @@
         <title>Max Filenko &mdash; Homepage</title>
         <link href="styles/style.css" rel="stylesheet">
     </head>
-
-    <body>
-        <header>
-            <h1>Max S. Filenko</h1>
-            <figure class="epigraph"><blockquote cite="https://www.goodreads.com/quotes/19905-perfection-is-achieved-not-when-there-is-nothing-more-to"><p>Perfection is&nbsp;achieved, not when there is&nbsp;nothing more to&nbsp;add, but when there is&nbsp;nothing left to&nbsp;take away.</p></blockquote><figcaption>&mdash;Antoine de Saint-Exup&eacute;ry, <cite>Airman's Odyssey</cite></figcaption></figure>
-            <aside>Hi &#x1F44B; My name is Max &#x1F647;</aside>
+    <body id="content" style="display:none">
+        <div id="github-content">
+            <header>
+                <h1>Max S. Filenko</h1>
+                <figure class="epigraph"><blockquote cite="https://www.goodreads.com/quotes/19905-perfection-is-achieved-not-when-there-is-nothing-more-to"><p>Perfection is&nbsp;achieved, not when there is&nbsp;nothing more to&nbsp;add, but when there is&nbsp;nothing left to&nbsp;take away.</p></blockquote><figcaption>&mdash;Antoine de Saint-Exup&eacute;ry, <cite>Airman's Odyssey</cite></figcaption></figure>
+                <aside>Hi &#x1F44B; My name is Max &#x1F647;</aside>
+                <p>
+                    I'm a backend engineer, and this is my <a href="http://motherfuckingwebsite.com/">motherfucking website</a>. Well, a bit <a href="http://bettermotherfuckingwebsite.com/">better version</a> of it.
+                </p>
+                <p>
+                    This website is a <a href="proof.html">proof of my online identity</a> and also used as a public notebook to share <a href="cotd.html">my day-to-day findings</a>.
+                </p>
+                <p>
+                    Here I also share <a href="now.html">what I'm up to</a>.
+                </p>
+            </header>
+            <h2>About Me</h2>
+            <ul>
+                <li><s>I am a perfectionist.</s></li>
+                <li><s>I am a minimalist.</s></li>
+                <li>I am an essentialist.</li>
+                <li>I love <a href="lists.html">lists</a>.</li>
+            </ul>
+            <h2>Why Motherfucking, or Beyond Satire</h2>
             <p>
-                I'm a backend engineer, and this is my <a href="http://motherfuckingwebsite.com/">motherfucking website</a>. Well, a bit <a href="http://bettermotherfuckingwebsite.com/">better version</a> of it.
+                First of all, I tried to keep it <a href="https://web.archive.org/web/20201111195207/https://www.romanzolotarev.com/" rel="external">simple</a>.
             </p>
             <p>
-                This website is a <a href="proof.html">proof of my online identity</a> and also used as a public notebook to share <a href="cotd.html">my day-to-day findings</a>.
+                Secondly, I'm lazy.
             </p>
             <p>
-                Here I also share <a href="now.html">what I'm up to</a>.
+                Last but not least, everything has a carbon footprint. <a href="https://irlpodcast.org/season5/episode3/">Even the internet</a>.
             </p>
-        </header>
+        </div>
 
-        <h2>About Me</h2>
+        <div id="default-content">
+            <header>
+                <h1>You typed it right</h1>
+            </header>
+        </div>
 
-        <ul>
-            <li><s>I am a perfectionist.</s></li>
-            <li><s>I am a minimalist.</s></li>
-            <li>I am an essentialist.</li>
-            <li>I love <a href="lists.html">lists</a>.</li>
-        </ul>
-
-        <h2>Why Motherfucking, or Beyond Satire</h2>
-
-        <p>
-            First of all, I tried to keep it <a href="https://web.archive.org/web/20201111195207/https://www.romanzolotarev.com/" rel="external">simple</a>.
-        </p>
-        <p>
-            Secondly, I'm lazy.
-        </p>
-        <p>
-            Last but not least, everything has a carbon footprint. <a href="https://irlpodcast.org/season5/episode3/">Even the internet</a>.
-        </p>
+        <script>
+            const fromGitHub = document.referrer.includes("github.com");
+            document.getElementById("github-content").style.display = fromGitHub ? "" : "none";
+            document.getElementById("default-content").style.display = fromGitHub ? "none" : "";
+            document.getElementById("content").style.display = "";
+        </script>
     </body>
 </html>
